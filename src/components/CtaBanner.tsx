@@ -28,7 +28,7 @@ export function CtaBanner() {
           </Link>
           <div className="text-left">
             <p className="text-[11px] font-semibold uppercase tracking-widest text-primary-foreground/60">Direct Contact</p>
-            <p className="text-sm text-primary-foreground">hello@gridstudio.dev</p>
+            <p className="text-sm text-primary-foreground">agnitramandal@gmail.com</p>
           </div>
         </div>
       </div>

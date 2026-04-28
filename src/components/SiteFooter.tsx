@@ -1,5 +1,6 @@
 import { Link } from "@tanstack/react-router";
 import { Globe, Share2, AtSign, Mail, Phone, ArrowRight } from "lucide-react";
+import logo from "@/assets/logo.png";
 
 export function SiteFooter() {
   return (
@@ -8,7 +9,7 @@ export function SiteFooter() {
         <div className="grid gap-12 md:grid-cols-4">
           <div className="space-y-4">
             <div className="flex items-center gap-2 font-semibold text-text-primary">
-              <span className="grid h-7 w-7 place-items-center rounded-md bg-primary text-primary-foreground text-xs font-bold">G</span>
+              <img src={logo} alt="Grid Studio logo" className="h-8 w-8 rounded-md object-contain" />
               Grid Studio
             </div>
             <p className="text-sm text-text-secondary leading-relaxed">
@@ -34,8 +35,8 @@ export function SiteFooter() {
           <div>
             <h4 className="text-xs font-bold uppercase tracking-widest text-text-primary">Contact</h4>
             <ul className="mt-4 space-y-3 text-sm">
-              <li className="flex items-center gap-2 text-text-secondary"><Mail className="h-4 w-4 text-primary" /> hello@gridstudio.dev</li>
-              <li className="flex items-center gap-2 text-text-secondary"><Phone className="h-4 w-4 text-primary" /> +1 (555) 010-2024</li>
+              <li className="flex items-center gap-2 text-text-secondary"><Mail className="h-4 w-4 text-primary" /> agnitramandal@gmail.com</li>
+              <li className="flex items-center gap-2 text-text-secondary"><Phone className="h-4 w-4 text-primary" /> 9330069381</li>
             </ul>
           </div>
 

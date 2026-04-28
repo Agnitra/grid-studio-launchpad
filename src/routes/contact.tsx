@@ -52,8 +52,8 @@ function ContactPage() {
           </form>
 
           <div className="lg:col-span-2 space-y-6">
-            <ContactCard icon={Mail} title="Email" value="hello@gridstudio.dev" />
-            <ContactCard icon={Phone} title="Phone" value="+1 (555) 010-2024" />
+            <ContactCard icon={Mail} title="Email" value="agnitramandal@gmail.com" />
+            <ContactCard icon={Phone} title="Phone" value="9330069381" />
             <ContactCard icon={MapPin} title="Office" value="Brooklyn, NY · Remote-first" />
           </div>
         </div>
