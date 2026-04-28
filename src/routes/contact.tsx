@@ -54,7 +54,7 @@ function ContactPage() {
           <div className="lg:col-span-2 space-y-6">
             <ContactCard icon={Mail} title="Email" value="agnitramandal@gmail.com" />
             <ContactCard icon={Phone} title="Phone" value="9330069381" />
-            <ContactCard icon={MapPin} title="Office" value="Brooklyn, NY · Remote-first" />
+            <ContactCard icon={MapPin} title="Office" value="Kalyani, Nadia · Remote services" />
           </div>
         </div>
       </div>

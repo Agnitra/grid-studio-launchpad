@@ -1,5 +1,5 @@
 import { Link } from "@tanstack/react-router";
-import { Globe, Share2, AtSign, Mail, Phone, ArrowRight } from "lucide-react";
+import { Instagram, Twitter, Mail, Phone, ArrowRight } from "lucide-react";
 import logo from "@/assets/logo.png";
 
 export function SiteFooter() {
@@ -16,9 +16,8 @@ export function SiteFooter() {
               Engineering clarity and growth through precision digital design and development.
             </p>
             <div className="flex items-center gap-3 pt-2 text-text-secondary">
-              <a href="#" aria-label="Website" className="rounded-md p-2 hover:bg-primary-light hover:text-primary transition-colors"><Globe className="h-4 w-4" /></a>
-              <a href="#" aria-label="Share" className="rounded-md p-2 hover:bg-primary-light hover:text-primary transition-colors"><Share2 className="h-4 w-4" /></a>
-              <a href="#" aria-label="Email" className="rounded-md p-2 hover:bg-primary-light hover:text-primary transition-colors"><AtSign className="h-4 w-4" /></a>
+              <a href="https://www.instagram.com/thegridstudio.design/?hl=en" target="_blank" rel="noopener noreferrer" aria-label="Instagram" className="rounded-md p-2 hover:bg-primary-light hover:text-primary transition-colors"><Instagram className="h-4 w-4" /></a>
+              <a href="https://x.com/GridStudio72907" target="_blank" rel="noopener noreferrer" aria-label="Twitter" className="rounded-md p-2 hover:bg-primary-light hover:text-primary transition-colors"><Twitter className="h-4 w-4" /></a>
             </div>
           </div>
 
@@ -64,8 +63,8 @@ export function SiteFooter() {
           <p>© {new Date().getFullYear()} Grid Studio. All rights reserved.</p>
           <div className="flex items-center gap-6">
             <a href="#" className="hover:text-primary">Terms of Service</a>
-            <a href="#" className="hover:text-primary">LinkedIn</a>
-            <a href="#" className="hover:text-primary">Twitter</a>
+            <a href="https://www.instagram.com/thegridstudio.design/?hl=en" target="_blank" rel="noopener noreferrer" className="hover:text-primary">Instagram</a>
+            <a href="https://x.com/GridStudio72907" target="_blank" rel="noopener noreferrer" className="hover:text-primary">Twitter</a>
           </div>
         </div>
       </div>
